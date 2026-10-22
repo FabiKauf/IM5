@@ -15,11 +15,4 @@ Container::make('theme_options', 'Globales')
             
             ->set_header_template('<% if (title) { %> <%- title %><% } %>')
             ->set_layout('tabbed-vertical')
-        /*Field::make( 'complex', 'crb_slider', __( 'Slider' ) )
-    ->add_fields( array(
-        Field::make( 'text', 'title', __( 'Slide Title' ) ),
-        Field::make( 'image', 'photo', __( 'Slide Photo' ) ),
-    ) )*/
-
-        // todo: Globale Inhaltsfelder hier ergänzen
     ]);
