@@ -45,6 +45,27 @@
 [data-layout="footer"] {
     padding: var(--gap-around);
     background-color: var(--color-accent);
+ 
+    .logo {
+        height: 100px;
+    }   
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-self: center;
+        gap: 4px;
+
+        .social-icon {
+            width: 32px;
+            height: 32px;
+        }
+        a {
+            text-decoration: none;
+        }
+    }    
+
     .nav-container {
         .nav {
             list-style: none;
