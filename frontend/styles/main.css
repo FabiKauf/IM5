@@ -6,7 +6,7 @@
     /* colors */
     --color-white: #ffffff;
     --color-black: #000000;
-    --color-accent: #ff0000;
+    --color-accent: #ff880082;
     /* gaps & sizes */
     --gap-around: 40px;
     /* fonts */
@@ -24,6 +24,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    .logo {
+        height: 100px;
+    }
     .nav-container {
         .nav {
             list-style: none;
